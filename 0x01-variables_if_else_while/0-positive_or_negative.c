@@ -3,20 +3,18 @@
 #include <time.h>
 
 /*
- * main - determine if number is positive or negative
- *
- * Description: program will assign a random number to the variable n each time it is executed
- *
- * Return: always 0 (success)
- */
-
+* main - determine if number is positive or negative
+* Description: program will assign a random number to the variable n
+* each time it is executed
+* Return: always 0 (success)
+*/
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n==0)
+	if (n == 0)
 		print ("%d is zero\n", n);
 	else if (n < 0)
 		printf("%d is negative\n", n);
