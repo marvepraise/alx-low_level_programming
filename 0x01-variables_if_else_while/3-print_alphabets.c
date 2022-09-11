@@ -1,12 +1,13 @@
 #include <stdio.h>
 
+
 /**
 * main - entry
 *
 * Return: 0 always
 */
 
-int main(void)
+int main(void);
 {
 	char set1;
 
@@ -16,6 +17,6 @@ int main(void)
 		putchar(set1);
 	for (set2 = 'A'; set2 <= 'Z'; set2++)
 		putchar(set2);
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
