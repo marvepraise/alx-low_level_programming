@@ -7,7 +7,7 @@
 * Return: 0 always
 */
 
-int main(void);
+int main(void)
 {
 	char set1;
 
