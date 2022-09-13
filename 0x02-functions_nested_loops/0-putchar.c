@@ -2,24 +2,22 @@
 #include "main.h"
 
 /**
- * main - print pchar
+ * main - entry
  *
- * Return: Always 0 (success)
+ * Return: 0 if successful
  *
- */
+ * */
 
 int main(void)
-/** main function */
 {
-	putchar("_");
-	putchar("p");
-	putchar("u");
-	putchar("(t");
-	putchar("c");
-	putchar("h");
-	putchar("a");
-	putchar("r");
-	putchar("\n");
+	char str[] = "_putchar";
+
+	int item;
+
+	for (item = 0; item < 8; item++)
+		_putchar(str[item]);
+	_putchar('\n');
 
 	return (0);
+
 }
