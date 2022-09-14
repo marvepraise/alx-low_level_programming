@@ -13,7 +13,5 @@
 int print_last_digit(int number)
 
 {
-
 	return (number % 100);
-
 }
