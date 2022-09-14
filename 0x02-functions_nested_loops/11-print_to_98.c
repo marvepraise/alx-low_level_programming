@@ -1,33 +1,45 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_to_98 - print number to 98 counts
+ * print_to_98 - Prints all natural numbers from n to 98
  *
- * separated by comma, followed
+ * @n: this is an integer
  *
- * by space and number should be
- *
- * printed in order
- *
- * @number: input
+ * Return: Null, Void
  */
 
-
-
-void print_to_98(int number)
+void print_to_98(int n)
 
 {
+	int i;
 
-	int count;
+	if (n < 98)
+	{
+		for (i = n; i <= 98; i++)
+		{
+			if (i != 98)
+				printf("%d, ", i);
+			else
+				printf("%d\n", i);
+		}
+	}
+	else if (n > 98)
+	{
+		for (i = n; i >= 98; i--)
+		{
+			if (i != 98)
+				printf("%d, ", i);
+		}
+		else
+			printf("%d\n", i);
+	}
+}
 
-	if (number > 98)
-		for (count = number; count > 98; --count)
-			printf("%d, ", count);
 	else
 
-	for (count = number; count < 98; ++count)
+	{
 
-		printf("%d, ", count);
+	printf("%d\n", n);
 
-	printf("98\n");
 }
