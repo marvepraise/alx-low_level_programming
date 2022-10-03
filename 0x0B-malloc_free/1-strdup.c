@@ -11,7 +11,7 @@
  * @str: string to be copied
  *
  * Return: On success, a pointer to the duplicated string; NULL if
- *  
+ *
  * failed or insufficient memory was allocated
  */
 
