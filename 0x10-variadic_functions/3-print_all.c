@@ -11,11 +11,8 @@
 void print_all(const char * const format, ...)
 {
 	va_list ap;
-
 	int i = 0, j, c = 0;
-
 	char *str;
-
 	const char fmt[] = "cifs";
 
 	va_start(ap, format);
