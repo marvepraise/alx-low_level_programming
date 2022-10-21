@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * before_main - Prints something before main
+ * before_main - This will Print somesthing before main
  *
  * Return: Null Void
  */
